@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    padding:0px;
+
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+
+nav h1 {
+    font-family: 'Playfair Display';
+    font-size:40px;
+}
+.z1 {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+.links {
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('logitech-gaming-mouse-1579884297.jpg');
+    background-size: cover;
+    color:lightgrey;
+    padding:40px;
+
+}
+
+header h1 {
+    font-size: 50px;
+}
+header h4 {
+    margin-top: -10px;
+    font-size: 18px;
+    border-bottom: 1px solid lightgrey;
+}
+.main .content .card {
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+.main .content .card .left {
+    flex : 0 0 30%;
+    padding:20px;
+    background-color: black;
+    color:white;
+}
+.main .content .card.right {
+    flex : 0 0 70%;
+}
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card .right img{
+    height:300px;
+    width:400px;
+    margin-top:5px;
+
+
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
